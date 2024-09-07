@@ -35,5 +35,6 @@ class ContadorPalabras
   cadena_ejemplo = "Hola mundo hola ruby mundo mundo"
   contador = ContadorPalabras.new(cadena_ejemplo)
   contador.contar_palabras_repetidas
+  # Actualizar variable de intancia
   contador.actualizar
   contador.contar_palabras_repetidas
