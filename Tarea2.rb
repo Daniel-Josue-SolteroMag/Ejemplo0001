@@ -24,10 +24,16 @@ class ContadorPalabras
       end
     end
 
+    def actualizar
+      puts "Introduce una nueva cadena de texto:"
+      @cadena = gets.chomp    
+    end
+
   end
   
   # Ejemplo de uso
   cadena_ejemplo = "Hola mundo hola ruby mundo mundo"
   contador = ContadorPalabras.new(cadena_ejemplo)
   contador.contar_palabras_repetidas
-  
+  contador.actualizar
+  contador.contar_palabras_repetidas
